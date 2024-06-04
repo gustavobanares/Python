@@ -3,7 +3,7 @@ conversão_de_mês = {
     'Fev': 'Fevereiro',
     'Mar': 'Março',
     'Abr': 'Abril',
-    'Maio': 'Maio',
+    'Mai': 'Maio',
     'Jun': 'Junho',
     'Jul': 'Julho',
     'Ago': 'Agosto',
@@ -14,3 +14,5 @@ conversão_de_mês = {
 }
 
 print(conversão_de_mês.get('Oct', 'Não é uma chave válida'))
+
+print(conversão_de_mês['Nov'])
